@@ -2,6 +2,9 @@ package com.blitznihar.camelstarter.camelconnectors.entities;
 
 import java.io.Serializable;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class AddressModel implements Serializable{
 
     public AddressModel() {
